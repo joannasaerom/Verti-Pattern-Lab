@@ -38,7 +38,9 @@ component-libraries:
       - source/_patterns/02-molecules/card
       - source/_patterns/02-molecules/contact
       - source/_patterns/02-molecules/link-column
+      - source/_patterns/02-molecules/main-content
       - source/_patterns/02-molecules/navigation-menu
+      - source/_patterns/02-molecules/side-bar
   organisms:
     paths:
       - source/_patterns/03-organisms
@@ -46,6 +48,7 @@ component-libraries:
       - source/_patterns/03-organisms/footer
       - source/_patterns/03-organisms/grids/caption-grid-block
       - source/_patterns/03-organisms/header
+      - source/_patterns/03-organisms/main-section
       - source/_patterns/03-organisms/site/site-footer
       - source/_patterns/03-organisms/site/site-header
   templates:
