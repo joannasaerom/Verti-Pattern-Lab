@@ -55,6 +55,7 @@ component-libraries:
     paths:
       - source/_patterns/04-templates
       - source/_patterns/04-templates/content-types
+      - source/_patterns/04-templates/verti-layout
   pages:
     paths:
       - source/_patterns/05-pages

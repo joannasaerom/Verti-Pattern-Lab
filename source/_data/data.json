@@ -1,5 +1,27 @@
 {
   "bodyClass": "homepage",
+  "button": {
+    "class": "button big icon fa-arrow-circle-right",
+    "label": "Faker.words(2, true)",
+    "link": "#"
+  },
+  "logo": {
+    "link": "#",
+    "slogan": "by HTML5 UP",
+    "name": "Verti"
+  },
+  "banner": {
+    "title": "Faker.words(2, true)",
+    "subtext": "Faker.words(5, true)"
+  },
+  "card": {
+    "link": "#",
+    "image": "../../../../images/pic01.jpg",
+    "title": "Faker.words(2, true)",
+    "subtitle": "Faker.words(5, true)",
+    "content": "Faker.sentences(2,true)",
+    "altText": "Faker.words(2, true)"
+  },
   "pl": true,
   "title": "Faker.words(2, true)",
   "text": "Faker.words(3, true)",
