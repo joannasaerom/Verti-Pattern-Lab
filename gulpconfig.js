@@ -47,7 +47,8 @@ module.exports = {
   js: {
     enabled: true,
     src: [
-      'js/**/*.js',
+      'js/script.js',
+      'js/script2.js',
       'source/_patterns/**/*.js',
     ],
     dest: 'dest/',
