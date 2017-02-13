@@ -71,6 +71,7 @@ plugins:
           - ../source/_patterns/02-molecules/banner
           - ../source/_patterns/02-molecules/branding
           - ../source/_patterns/02-molecules/caption-block
+          - ../source/_patterns/02-molecules/card
           - ../source/_patterns/02-molecules/navigation-menu
       organisms:
         paths:

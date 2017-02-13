@@ -1,4 +1,5 @@
 {
+  "bodyClass": "homepage",
   "pl": true,
   "title": "Faker.words(2, true)",
   "text": "Faker.words(3, true)",
