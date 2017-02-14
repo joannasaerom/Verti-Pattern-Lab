@@ -1,17 +1,18 @@
 <div class="4u 12u(medium)">
-
   <div id="sidebar">
     <section class="widget thumbnails">
-      <h3>Interesting stuff</h3>
+      <h3>{{side.title}}</h3>
       <div class="grid">
         <div class="row 50%">
-          <div class="6u"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-          <div class="6u"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-          <div class="6u"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-          <div class="6u"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>
-        </div>
+          {% for image in side.images %}
+          <div class="6u">
+            <a href="{{image.link}}" class="{{image.class}}">
+              <img src="{{image.src}}" alt="{{image.alt}}" />
+            </a>
+          </div>
+          {% endfor %}
       </div>
-      <a href="#" class="button icon fa-file-text-o">More</a>
+      {% include '@atoms/button.twig' %}
     </section>
   </div>
 

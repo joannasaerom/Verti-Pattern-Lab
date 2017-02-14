@@ -36,6 +36,15 @@
     "title": "Faker.words(2, true)",
     "content": "Faker.sentences(10, true)"
   },
+  "side": {
+    "title": "Faker.words(2, true)",
+    "images": [{
+      "link": "#",
+      "class": "image fit",
+      "src": "../../../../images/pic04.jpg",
+      "alt": "Faker.words(2, true)"
+      }]
+  },
   "pl": true,
   "title": "Faker.words(2, true)",
   "text": "Faker.words(3, true)",
