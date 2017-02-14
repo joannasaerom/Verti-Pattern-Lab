@@ -22,6 +22,16 @@
     "content": "Faker.sentences(2,true)",
     "altText": "Faker.words(2, true)"
   },
+  "contact": {
+    "address1": "123 Lorem Street",
+    "address2": "Lorem, Ipsum 00000",
+    "phone": "000-000-0000",
+    "icons": [{
+      "link": "#",
+      "class": "icon fa-twitter",
+      "label": "Faker.words(1, true)"
+    }]
+  },
   "pl": true,
   "title": "Faker.words(2, true)",
   "text": "Faker.words(3, true)",
