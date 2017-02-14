@@ -32,6 +32,10 @@
       "label": "Faker.words(1, true)"
     }]
   },
+  "main": {
+    "title": "Faker.words(2, true)",
+    "content": "Faker.sentences(10, true)"
+  },
   "pl": true,
   "title": "Faker.words(2, true)",
   "text": "Faker.words(3, true)",
