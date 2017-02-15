@@ -1,3 +1,42 @@
 {
-
+  "nav": {
+    "items": [
+      {
+      "class": "current",
+      "link": "#",
+      "title": "Test One"
+    },
+    {
+    "class": "",
+    "link": "#",
+    "title": "Test Two",
+    "subitems": [
+      {
+        "link": "#",
+        "title": "Test 3",
+        "subsubitems": []
+      },
+      {
+        "link": "#",
+        "title": "Test 4",
+        "subsubitems": []
+      },
+      {
+        "link": "#",
+        "title": "Test 3",
+        "subsubitems": [
+          {
+            "link": "#",
+            "title": "Test 5"
+          },
+          {
+            "link": "#",
+            "title": "Test 7"
+          }
+        ]
+      }
+    ]
+  }
+    ]
+  }
 }

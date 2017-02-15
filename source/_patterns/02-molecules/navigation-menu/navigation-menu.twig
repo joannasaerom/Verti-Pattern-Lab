@@ -1,5 +1,5 @@
-<nav id="nav">
-	<ul>
+<!-- <nav id="nav">
+<ul>
 		<li class="current"><a href="#">Welcome</a></li>
 		<li>
 			<a href="#">Dropdown</a>
@@ -21,5 +21,33 @@
 		<li><a href="#">Left Sidebar</a></li>
 		<li><a href="#">Right Sidebar</a></li>
 		<li><a href="#">No Sidebar</a></li>
+</ul>
+</nav> -->
+
+<nav id="nav">
+	<ul>
+		{% for item in nav.items %}
+			<li class="{{item.class}}">
+				<a href="{{item.link}}">{{item.title}}</a>
+				{% if item.subitems %}
+					<ul>
+						{% for subitem in item.subitems %}
+							<li>
+								<a href="{{subitem.link}}">{{subitem.title}}</a>
+								{% if subitem.subsubitems %}
+									<ul>
+										{% for subsubitem in subsubitems %}
+											<li>
+												<a href="{{subsubitem.link}}">{{subsubitem.title}}</a>
+											</li>
+										{% endfor %}
+									</ul>
+								{% endif %}
+							</li>
+						{% endfor %}
+					</ul>
+				{% endif %}
+		{% endfor %}
+		</li>
 	</ul>
 </nav>

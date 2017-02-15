@@ -7,7 +7,13 @@
 			</div>
 			<div class="5u 12u(medium)">
 				<ul>
-					<li>{% include '@atoms/button.twig' %}</li>
+					<li>{% include '@atoms/button.twig' with {
+						button: {
+						class: button.class,
+						label: button.label,
+						link: button.link
+						}
+					}%}</li>
 					<li>{% include '@atoms/button.twig' %}</li>
 				</ul>
 			</div>

@@ -16,7 +16,7 @@
   },
   "card": {
     "link": "#",
-    "image": "../../../../images/pic01.jpg",
+    "image": "../../../../images/fpo_avatar.png",
     "title": "Faker.words(2, true)",
     "subtitle": "Faker.words(5, true)",
     "content": "Faker.sentences(2,true)",
@@ -41,8 +41,20 @@
     "images": [{
       "link": "#",
       "class": "image fit",
-      "src": "../../../../images/pic04.jpg",
+      "src": "../../../../images/fpo_avatar.png",
       "alt": "Faker.words(2, true)"
+      }]
+  },
+  "menu": {
+    "items": [{
+      "content": "Faker.words(2, true)"
+      }]
+  },
+  "linkCol": {
+    "title": "Faker.words(2, true)",
+    "items": [{
+      "link": "#",
+      "content": "Faker.words(3, true)"
       }]
   },
   "pl": true,

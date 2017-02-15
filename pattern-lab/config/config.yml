@@ -68,7 +68,6 @@ plugins:
       molecules:
         paths:
           - ../source/_patterns/02-molecules
-          - ../source/_patterns/02-molecules/banner
           - ../source/_patterns/02-molecules/branding
           - ../source/_patterns/02-molecules/caption-block
           - ../source/_patterns/02-molecules/card
@@ -77,9 +76,11 @@ plugins:
           - ../source/_patterns/02-molecules/main-content
           - ../source/_patterns/02-molecules/navigation-menu
           - ../source/_patterns/02-molecules/side-bar
+          - ../source/_patterns/02-molecules/simple-menu
       organisms:
         paths:
           - ../source/_patterns/03-organisms
+          - ../source/_patterns/03-organisms/banner
           - ../source/_patterns/03-organisms/features
           - ../source/_patterns/03-organisms/footer
           - ../source/_patterns/03-organisms/grids/caption-grid-block
@@ -95,3 +96,4 @@ plugins:
       pages:
         paths:
           - ../source/_patterns/05-pages
+          - ../source/_patterns/05-pages/verti-page
